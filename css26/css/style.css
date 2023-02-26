@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+
+.block {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(184, 27, 27);
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+
+.block {
+    transition-property: border-color;
+    transition-duration: 2s;
+    transition-duration: 3s;
+}
+
+/* .block {
+    transition: 2s, 3s;
+} */
+
+.block:hover {
+    border-color: burlywood;
+}
